@@ -1,5 +1,10 @@
-
 # Angular8
+
+#5 Quest: Access a Form Control in Form Group 
+    display the input value using template 
+    display the input value using component on ngSubmit log them   
+
+#4 Quest: Create a Reactive form that and display user input as part of the console logs
 
     #creating a Routing module sepeartely for modularity and sepreation of concern
 
@@ -41,9 +46,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-
-Create a Test a Branch to Test out the knowledge
-
-    #4 Create Employee Form using Reactive Forms
-        
