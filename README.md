@@ -2,7 +2,8 @@
 
 #5 Quest: Access a Form Control in Form Group 
     display the input value using template 
-    display the input value using component on ngSubmit log them   
+    display the input value using component on ngSubmit log them
+    What are the different states of FormGroup and FormControl   
 
 #4 Quest: Create a Reactive form that and display user input as part of the console logs
 
