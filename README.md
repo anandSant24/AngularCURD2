@@ -1,7 +1,12 @@
 # Angular8
+
+#8 Easier Way to create a reactive form apart from creating instance of formGroup and formControl
+    and how to add default Values
+
 #7  How do you pre-populate the form and nested form in Angular
     How do you prepopulate only nested form group
-#6
+    
+#6 Write HTML code which displays a nested form i.e skills and proficiency and yearsOfExperience
 
 #5 Quest: Access a Form Control in Form Group 
     display the input value using template 
