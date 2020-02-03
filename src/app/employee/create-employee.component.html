@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div formGroupName ="skills">  
-                              
+
                 <div class="form-group">
                     <label class="col-sm-2 control-label" for="skillName"> Skills </label>
                     <div class="col-sm-4">
@@ -58,8 +58,10 @@
     
 
 
-        <div class="panel-footer">
+        <div class="panel-footer btn-toolbar">
             <button class="btn btn-primary" type="submit">Save</button>
+            <button class="btn btn-primary" type="button" (click)="onLoadData()">Load Data</button>
+            <button class="btn btn-primary" type="button" (click)="loadOnlyPartialData()">Load Partial Data</button>
         </div>
     </div>
     
