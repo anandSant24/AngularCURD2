@@ -1,6 +1,6 @@
 # Angular8
-#7 How do you pre-populate the form and nested form in Angular
-
+#7  How do you pre-populate the form and nested form in Angular
+    How do you prepopulate only nested form group
 #6
 
 #5 Quest: Access a Form Control in Form Group 
