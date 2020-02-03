@@ -1,11 +1,19 @@
 # Angular8
+#9 how can you do validation in ReactiveForms
+    1. make the fullName mandatory, show error and message
+    2. make its minLength 2 and MaxLength 10 , above this range highlight error
+
+    What are different validation functions provided by Reactive form validators
 
 #8 Easier Way to create a reactive form apart from creating instance of formGroup and formControl
     and how to add default Values
+    
+    FormBuilder is the easiet way of creating Reactive Forms,
+    Note: it is a service
 
 #7  How do you pre-populate the form and nested form in Angular
     How do you prepopulate only nested form group
-    
+
 #6 Write HTML code which displays a nested form i.e skills and proficiency and yearsOfExperience
 
 #5 Quest: Access a Form Control in Form Group 
