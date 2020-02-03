@@ -11,19 +11,70 @@
                 <label class="col-sm-2 control-label" for="fullName">Full Name</label>
                 
                 <div class="col-sm-8">
-                    <input type="text" id="fullName" formControlName="fullName" class="form-control">
+                    <input type="text" id="fullName" formControlName="fullName" class="form-control"/>
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-sm-2 control-label" for="email">Email</label>
                 <div class="col-sm-8">
-                    <input type="email" id="email" formControlName="email" class="form-control">
+                    <input type="email" id="email" formControlName="email" class="form-control"/>
+                </div>
+            </div>
+            <div formGroupName ="skills">  
+                              
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="skillName"> Skills </label>
+                    <div class="col-sm-4">
+                        <input type="text" id="skillName" formControlName="skillName" class="form-control" placeholder="Skill Name" />
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" id="years" formControlName="experienceInYears" class="form-control" placeholder="years"  />
+                    </div>
+                </div>
+            
+    
+                <div class="form-group">
+                    <label class='col-md-2 control-label'>proficiency </label>
+                    <div class="col-md-8">
+                        <label class="radio-inline">
+                            <input type="radio" value="Beginner" formControlName="proficiency">
+                            Beginner
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" value="Intermediate" formControlName="proficiency">
+                            Intermediate
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" value="Advanced" formControlName="proficiency">
+                            Advanced
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>
+
+
+
+    
+
 
         <div class="panel-footer">
             <button class="btn btn-primary" type="submit">Save</button>
         </div>
     </div>
+    
 </form>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th> FormControl </th>
+                <th> FormGroup </th>
+            </tr>
+        </thead>
+        <tr>
+            <td> {{employeeForm.controls.fullName.value}} </td>
+            <td> {{employeeForm.get('email').value}} </td>
+        </tr>
+    </table>
+</div>

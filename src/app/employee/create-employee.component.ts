@@ -14,10 +14,20 @@ export class CreateEmployeeComponent implements OnInit {
   ngOnInit() {
     this.employeeForm =  new FormGroup({
       'fullName': new FormControl(),
-      'email': new FormControl()
+      'email': new FormControl(),
+      skills: new FormGroup({
+        skillName: new FormControl(),
+        experienceInYears: new FormControl(),
+        proficiency: new FormControl()
+      })
     })
   }
+
   onSubmit(): void{
-    console.log(this.employeeForm.value);
+    console.log(this.employeeForm);
+    console.log(this.employeeForm.controls.fullName.value)
+    console.log(this.employeeForm.get('email').value);
+    console.log("is it pristine",this.employeeForm.controls.fullName.pristine)
+    console.log("is email filed touched",this.employeeForm.get('email').touched);  
   }
 }
